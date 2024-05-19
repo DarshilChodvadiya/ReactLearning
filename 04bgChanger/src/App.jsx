@@ -35,6 +35,13 @@ function App() {
             Blue
           </button>
           <button
+            onClick={() => setColor("white")}
+            className="outline-none px-4 py-1 rounded-full text-black"
+            style={{ backgroundColor: "white" }}
+          >
+            White
+          </button>
+          <button
             onClick={() => setColor("olive")}
             className="outline-none px-4 py-1 rounded-full text-white"
             style={{ backgroundColor: "olive" }}
@@ -51,10 +58,24 @@ function App() {
           </button>
           <button
             onClick={() => setColor("yellow")}
-            className="outline-none px-4 py-1 rounded-full text-white"
+            className="outline-none px-4 py-1 rounded-full text-black"
             style={{ backgroundColor: "yellow" }}
           >
             Yellow
+          </button>
+          <button
+            onClick={() => setColor("pink")}
+            className="outline-none px-4 py-1 rounded-full text-white"
+            style={{ backgroundColor: "pink" }}
+          >
+            Pink
+          </button>
+          <button
+            onClick={() => setColor("purple")}
+            className="outline-none px-4 py-1 rounded-full text-white"
+            style={{ backgroundColor: "purple" }}
+          >
+            Purple
           </button>
         </div>
       </div>
